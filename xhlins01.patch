@@ -1,0 +1,11 @@
+--- dirgraph.odevzdany	2020-04-14 17:30:02.688623000 +0200
++++ dirgraph	2020-04-14 17:08:43.291534000 +0200
+@@ -114,7 +114,7 @@
+ fi
+ 
+ #print the graph
+-printf "Root Directory: $(realpath $DIR)\n"
++printf "Root directory: $DIR\n"
+ printf "Directories: $numDir\n"
+ printf "All files: $numFile\n"
+ printf "File size histogram:\n"
